@@ -21,5 +21,5 @@ public class LGA extends CoreEntity {
     @Column(nullable = false)
     private String name;
 
-    private long stateId;
+    private Long stateId;
 }

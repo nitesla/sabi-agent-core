@@ -17,5 +17,5 @@ import javax.persistence.Entity;
 @Entity
 public class Supervisor extends CoreEntity {
 
-    private long userId;
+    private Long userId;
 }

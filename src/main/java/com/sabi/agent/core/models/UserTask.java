@@ -21,9 +21,9 @@ public class UserTask extends CoreEntity {
 
 
 
-    private long userId;
+    private Long userId;
 
-    private long taskId;
+    private Long taskId;
 
     @Column(nullable = false)
     private Date dateAssigned;

@@ -20,5 +20,5 @@ public class Ward extends CoreEntity {
     @Column(nullable = false)
     private String name;
 
-    private long lgaId;
+    private Long lgaId;
 }

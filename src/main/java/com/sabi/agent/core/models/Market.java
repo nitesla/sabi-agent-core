@@ -22,5 +22,5 @@ public class Market extends CoreEntity {
     @Column(nullable = false)
     private String name;
 
-    private long wardId;
+    private Long wardId;
 }
