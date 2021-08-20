@@ -3,9 +3,6 @@ package com.sabi.agent.core.dto.requestDto;
 
 import lombok.Data;
 
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
-
 /**
  *
  * This class collects the request and map it to the entity class
@@ -16,7 +13,5 @@ public class StateDto {
 
     private Long id;
 
-    @NotNull
-    @NotEmpty
     private String name;
 }

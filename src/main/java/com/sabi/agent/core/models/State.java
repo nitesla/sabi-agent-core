@@ -8,7 +8,6 @@ import lombok.EqualsAndHashCode;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import java.util.Date;
 
 /**
  *
@@ -24,9 +23,7 @@ public class State extends CoreEntity {
     @Column(nullable = false)
     private String name;
 
-    private Date createdDate;
 
-    private Date updatedDate;
 
 
 }

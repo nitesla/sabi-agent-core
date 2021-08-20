@@ -3,8 +3,6 @@ package com.sabi.agent.core.dto.requestDto;
 
 import lombok.Data;
 
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
 import java.util.Date;
 
 /**
@@ -15,21 +13,17 @@ import java.util.Date;
 @Data
 public class UserTaskDto {
 
-    @NotNull
-    @NotEmpty
+
     private long userId;
 
-    @NotNull
-    @NotEmpty
+
     private long taskId;
 
-    @NotNull
-    @NotEmpty
+
     private Date dateAssigned;
 
     private Date endDate;
 
-    @NotNull
-    @NotEmpty
+
     private String status;
 }

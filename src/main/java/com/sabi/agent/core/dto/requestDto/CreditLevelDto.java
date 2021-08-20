@@ -2,8 +2,6 @@ package com.sabi.agent.core.dto.requestDto;
 
 import lombok.Data;
 
-import javax.validation.constraints.NotEmpty;
-import javax.validation.constraints.NotNull;
 import java.math.BigDecimal;
 
 /**
@@ -14,12 +12,9 @@ import java.math.BigDecimal;
 @Data
 public class CreditLevelDto {
 
-    @NotNull
-    @NotEmpty
+
     private BigDecimal limit;
 
-    @NotNull
-    @NotEmpty
     private int repaymentPeriod;
 
 
