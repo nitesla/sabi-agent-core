@@ -12,6 +12,6 @@ public class Target extends CoreEntity {
 
 
     private String name;
-    private Boolean isActive;
+
 
 }
