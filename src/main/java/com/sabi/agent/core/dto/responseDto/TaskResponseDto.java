@@ -4,11 +4,13 @@ package com.sabi.agent.core.dto.responseDto;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
-import java.util.Date;
+import java.time.LocalDateTime;
 
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class TaskResponseDto {
+
+    private Long id;
 
     private String name;
 
@@ -20,9 +22,9 @@ public class TaskResponseDto {
 
     private String durationType;
 
-    private Date createdDate;
+    private LocalDateTime createdDate;
 
-    private Date updatedDate;
+    private LocalDateTime updatedDate;
 
     private Long createdBy;
 
