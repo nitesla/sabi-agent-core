@@ -12,6 +12,8 @@ import lombok.Data;
 public class MarketDto {
 
 
+    private Long id;
+
     private String name;
 
     private long wardId;

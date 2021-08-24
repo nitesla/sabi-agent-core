@@ -10,5 +10,6 @@ import lombok.Data;
 @Data
 public class SupervisorDto {
 
+    private Long id;
     private long userId;
 }

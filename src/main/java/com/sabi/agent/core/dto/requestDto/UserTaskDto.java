@@ -14,8 +14,9 @@ import java.util.Date;
 public class UserTaskDto {
 
 
-    private long userId;
+    private Long id;
 
+    private long userId;
 
     private long taskId;
 

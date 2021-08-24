@@ -12,10 +12,13 @@ import java.math.BigDecimal;
 @Data
 public class CreditLevelDto {
 
+    private Long id;
 
     private BigDecimal limit;
 
     private int repaymentPeriod;
+
+    private Long agentCategoryId;
 
 
 }

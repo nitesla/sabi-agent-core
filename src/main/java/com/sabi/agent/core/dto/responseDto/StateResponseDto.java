@@ -20,5 +20,7 @@ public class StateResponseDto {
 
     private Long createdBy;
 
-    private Boolean Isactive;
+    private Long updatedBy;
+
+    private Boolean isActive;
 }

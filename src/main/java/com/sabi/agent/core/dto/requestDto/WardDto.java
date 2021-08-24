@@ -12,6 +12,8 @@ import lombok.Data;
 public class WardDto {
 
 
+    private Long id;
+
     private String name;
 
 

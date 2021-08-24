@@ -11,8 +11,9 @@ import lombok.Data;
 public class LGADto {
 
 
-    private String name;
+    private Long id;
 
+    private String name;
 
     private long stateId;
 }

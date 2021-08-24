@@ -22,4 +22,5 @@ public class LGA extends CoreEntity {
     private String name;
 
     private Long stateId;
+
 }

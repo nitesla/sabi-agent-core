@@ -2,25 +2,28 @@ package com.sabi.agent.core.dto.responseDto;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
+
+@AllArgsConstructor
+@NoArgsConstructor
+@Builder
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class TaskResponseDto {
+public class LGAResponseDto {
+
 
     private Long id;
-
     private String name;
 
-    private String taskType;
+    private long stateId;
 
-    private String priority;
-
-    private int duration;
-
-    private String durationType;
+    private String state;
 
     private LocalDateTime createdDate;
 
