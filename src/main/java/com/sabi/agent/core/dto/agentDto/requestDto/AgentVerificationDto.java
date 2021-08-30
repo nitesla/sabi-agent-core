@@ -10,7 +10,7 @@ public class AgentVerificationDto {
     private long id;
 
     @JsonIgnore
-    private AgentDto agentDto;
+    private AgentUpdateDto agentDto;
     private String component;
     private String status;
     private User verifierId;

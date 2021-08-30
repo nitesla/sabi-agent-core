@@ -1,16 +1,17 @@
-package com.sabi.agent.core.dto.agentDto.requestDto;
+package com.sabi.agent.core.dto.responseDto;
 
-import com.sabi.agent.core.models.CreditLevel;
-import com.sabi.agent.core.models.agentModel.AgentCategory;
+
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
 @Data
-public class AgentDto {
+@JsonInclude(JsonInclude.Include.NON_NULL)
+public class AgentUpdateResponseDto {
 
     private Long id;
 
-    private AgentCategory agentCategory;
-
+    private Long agentCategoryId;
+    private long userId;
     private String scope;
     private String referralCode;
     private Boolean isActive;
@@ -25,6 +26,6 @@ public class AgentDto {
     private String walletId;
     private String picture;
     private Boolean hasCustomizedTarget;
-    private CreditLevel creditLevel;
+    private Long creditLevelId;
 
 }

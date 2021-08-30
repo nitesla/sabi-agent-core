@@ -1,22 +1,16 @@
-package com.sabi.agent.core.models.agentModel;
+package com.sabi.agent.core.dto.agentDto.requestDto;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.sabi.framework.models.CoreEntity;
+
+import lombok.Builder;
 import lombok.Data;
-import lombok.EqualsAndHashCode;
 
-import javax.persistence.Entity;
 import java.util.Date;
 
-
-
-
-
-@EqualsAndHashCode(callSuper=false)
-@Entity
+@Builder
 @Data
-@JsonIgnoreProperties(ignoreUnknown = true)
-public class Agent extends CoreEntity {
+public class AgentUpdateDto {
+
+    private Long id;
 
     private long userId;
     private Long agentCategoryId;
@@ -45,7 +39,4 @@ public class Agent extends CoreEntity {
     private Long countryId;
     private boolean accountNonLocked;
 
-    private String registrationToken;
-
-    private String registrationTokenExpiration;
 }

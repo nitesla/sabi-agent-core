@@ -7,7 +7,7 @@ import lombok.Data;
 @Data
 public class AgentLocationDto {
     private long id;
-    private AgentDto agentDto;
+    private AgentUpdateDto agentDto;
     @JsonProperty("locationType")
     private String locationType;
     private AgentLocation location;
