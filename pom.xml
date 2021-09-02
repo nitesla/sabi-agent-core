@@ -122,7 +122,7 @@
 
 		<dependency>
 			<groupId>com.sabi.framework</groupId>
-			<artifactId>sabi-api</artifactId>
+			<artifactId>sabi-framework</artifactId>
 			<version>1.0</version>
 		</dependency>
 	</dependencies>
