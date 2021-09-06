@@ -16,7 +16,7 @@ import java.time.LocalDateTime;
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class CreditLevelResponseDto {
     private Long id;
-    private BigDecimal limit;
+    private BigDecimal limits;
     private int repaymentPeriod;
     private Long agentCategoryId;
     private LocalDateTime createdDate;

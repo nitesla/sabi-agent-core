@@ -14,7 +14,7 @@ public class CreditLevelDto {
 
     private Long id;
 
-    private BigDecimal limit;
+    private BigDecimal limits;
 
     private int repaymentPeriod;
 
