@@ -6,6 +6,7 @@ import com.sabi.framework.models.CoreEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 
 
@@ -14,6 +15,8 @@ import javax.persistence.Entity;
 @Entity
 public class AgentCategoryTask extends CoreEntity {
 
-    private long agentCategoryId;
+    @Column(nullable = false)
+    private String name;
+    private AgentCategory agentCategory;
     private Task task;
 }

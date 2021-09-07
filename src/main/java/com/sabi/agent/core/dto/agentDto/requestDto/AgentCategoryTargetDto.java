@@ -6,8 +6,11 @@ import lombok.Data;
 @Data
 public class AgentCategoryTargetDto {
 
-    private AgentCategoryDto agentCategoryDto;
+    private Long id;
+    private String name;
+    private Long agentCategoryId;
     private Integer min;
     private Integer max;
     private Integer superMax;
+    private Long targetTypeId;
 }
