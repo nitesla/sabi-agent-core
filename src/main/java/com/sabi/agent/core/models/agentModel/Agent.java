@@ -31,15 +31,16 @@ public class Agent extends CoreEntity {
     private Long balance;
     private Date verificationDate;
     private Long supervisorId;
-    private String verificationStatus;
+    private int verificationStatus;
     private String comment;
     private String cardToken;
-    private String status;
+    private int status;
     private String walletId;
     private String picture;
     private Boolean hasCustomizedTarget;
     private Long creditLevelId;
     private Long idTypeId;
+    private String idCard;
     private Long stateId;
     private Long bankId;
     private Long countryId;

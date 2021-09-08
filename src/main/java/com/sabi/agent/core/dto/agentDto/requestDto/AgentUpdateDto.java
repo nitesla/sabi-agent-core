@@ -25,10 +25,8 @@ public class AgentUpdateDto {
     private Long balance;
     private Date verificationDate;
     private Long supervisorId;
-    private String verificationStatus;
     private String comment;
     private String cardToken;
-    private String status;
     private String walletId;
     private String picture;
     private Boolean hasCustomizedTarget;

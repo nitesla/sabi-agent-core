@@ -7,6 +7,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 
@@ -32,12 +33,12 @@ public class QueryAgentResponseDto {
     private Integer payBackDuration;
     private String comment;
     private String cardToken;
-    private String status;
+    private int status;
     private String walletId;
     private String picture;
     private Boolean hasCustomizedTarget;
     private Long creditLevelId;
-    private String creditLevel;
+    private BigDecimal creditLevel;
     private Long idTypeId;
     private String idType;
     private Long stateId;
