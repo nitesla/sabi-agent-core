@@ -5,6 +5,7 @@ import lombok.Data;
 public class AgentNetworkDto {
 
     private long id;
-    private AgentUpdateDto agentDto;
+    private Long agentId;
+    private Long subAgentId;
     //private SubAgent subAgent;
 }
