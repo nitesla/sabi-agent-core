@@ -16,9 +16,9 @@ public class UserTaskDto {
 
     private Long id;
 
-    private long userId;
+    private Long userId;
 
-    private long taskId;
+    private Long taskId;
 
 
     private Date dateAssigned;
