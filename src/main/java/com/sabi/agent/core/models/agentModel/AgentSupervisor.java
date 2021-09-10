@@ -14,7 +14,7 @@ import javax.persistence.Entity;
 public class AgentSupervisor extends CoreEntity {
 
 
-    private Agent agent;
-    private Supervisor supervisor;
+    private Long agentId;
+    private Long supervisorId;
 
 }
