@@ -1,22 +1,29 @@
 package com.sabi.agent.core.models.agentModel;
 
 
-import com.sabi.framework.models.CoreEntity;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import lombok.*;
 
-import javax.persistence.Entity;
+import javax.persistence.*;
+import java.time.LocalDateTime;
 import java.util.Date;
 
+@Builder
+@AllArgsConstructor
+@NoArgsConstructor
 @EqualsAndHashCode(callSuper=false)
 @Data
 @Entity
-public class AgentVerification extends CoreEntity {
+public class AgentVerification {
+
+    @Id
+    @Column
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
 
     private Long agentId;
     private String component;
     private Date dateVerified;
-    private String status;
-    private Date dateSubmitted;
+    private int status;
+    private LocalDateTime dateSubmitted;
     private Long verifierId;
 }

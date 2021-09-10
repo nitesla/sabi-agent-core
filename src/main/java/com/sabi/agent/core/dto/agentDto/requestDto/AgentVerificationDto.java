@@ -1,17 +1,15 @@
 package com.sabi.agent.core.dto.agentDto.requestDto;
 
-import com.fasterxml.jackson.annotation.JsonIgnore;
-import com.sabi.framework.models.User;
+
+
 import lombok.Data;
 
 @Data
 public class AgentVerificationDto {
 
-    private long id;
+    private Long id;
+    private String bvn;
+    private String address;
+    private String idCard;
 
-    @JsonIgnore
-    private AgentUpdateDto agentDto;
-    private String component;
-    private String status;
-    private User verifierId;
 }

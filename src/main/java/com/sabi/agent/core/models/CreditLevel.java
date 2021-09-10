@@ -4,7 +4,6 @@ import com.sabi.framework.models.CoreEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
-import javax.persistence.Column;
 import javax.persistence.Entity;
 import java.math.BigDecimal;
 
@@ -20,9 +19,7 @@ public class CreditLevel extends CoreEntity {
 
     private long agentCategoryId;
 
-    @Column(nullable = false)
     private BigDecimal limits;
 
-    @Column(nullable = false)
     private int repaymentPeriod;
 }
