@@ -6,13 +6,9 @@ import com.sabi.agent.core.models.agentModel.Agent;
 import lombok.Data;
 
 @Data
-public class AgentSupervisor {
+public class AgentSupervisorDto {
 
-    private long id;
+    private Long agentId;
 
-    @JsonIgnore
-    private Agent agent;
-
-    @JsonIgnore
-    private Supervisor supervisor;
+    private Long supervisorId;
 }
