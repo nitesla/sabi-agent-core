@@ -17,8 +17,10 @@ public class UserTaskDto {
     private Long id;
 
     private Long userId;
+    private String user;
 
     private Long taskId;
+    private String taskName;
 
 
     private Date dateAssigned;

@@ -9,5 +9,7 @@ public class AgentCategoryTaskDto {
     private String name;
     private Long agentCategoryId;
     private Long taskId;
+    private String taskName;
+    private String agentCategoryName;
 
 }
