@@ -1,7 +1,6 @@
 package com.sabi.agent.core.models;
 
 import com.sabi.framework.models.CoreEntity;
-import com.sabi.framework.models.User;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -22,9 +21,9 @@ public class UserTask extends CoreEntity {
 
 
 
-    private User userId;
+    private Long userId;
 
-    private Task taskId;
+    private Long taskId;
 
     @Column(nullable = false)
     private Date dateAssigned;
