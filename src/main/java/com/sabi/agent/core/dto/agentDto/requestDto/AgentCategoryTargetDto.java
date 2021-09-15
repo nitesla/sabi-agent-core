@@ -14,4 +14,5 @@ public class AgentCategoryTargetDto {
     private Integer max;
     private Integer superMax;
     private Long targetTypeId;
+    private String targetTypeName;
 }
