@@ -7,6 +7,7 @@ import lombok.Data;
 
 @Data
 public class AgentSupervisorDto {
+    private Long id;
 
     private Long agentId;
 
