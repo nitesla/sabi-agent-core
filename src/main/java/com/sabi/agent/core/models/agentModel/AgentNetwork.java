@@ -12,6 +12,6 @@ import javax.persistence.Entity;
 @Entity
 public class AgentNetwork extends CoreEntity {
 
-    private Agent agentId;
-    //private SubAgent subAgent;
+    private Long agentId;
+    private Long subAgent;
 }

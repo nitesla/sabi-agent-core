@@ -10,7 +10,7 @@ import java.util.Date;
 public class AgentTargetResponseDto {
     private String name;
     private Agent agentId;
-    private Date targetType;
+    private Long targetId;
     private Integer min;
     private Integer max;
     private Integer superMax;

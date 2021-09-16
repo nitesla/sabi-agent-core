@@ -12,9 +12,8 @@ import javax.persistence.Entity;
 @Entity
 public class AgentLocation extends CoreEntity {
 
-
-    private long agentId;
+    private Long agentId;
     private String locationType;
-    private AgentLocation location;
+    private Long locationId;
     private String locationName;
 }

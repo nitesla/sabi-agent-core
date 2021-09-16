@@ -7,5 +7,4 @@ public class AgentNetworkDto {
     private long id;
     private Long agentId;
     private Long subAgentId;
-    //private SubAgent subAgent;
 }
