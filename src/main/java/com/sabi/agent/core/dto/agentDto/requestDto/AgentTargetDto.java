@@ -8,17 +8,9 @@ import lombok.Data;
 public class AgentTargetDto {
 
     private long id;
-
-
     private String name;
-
-    @JsonIgnore
-    private Agent agent;
-
-
-    private String targetType;
-
-
+    private Long targetId;
+    private Long agentId;
     private Integer min;
     private Integer max;
     private Integer superMax;
