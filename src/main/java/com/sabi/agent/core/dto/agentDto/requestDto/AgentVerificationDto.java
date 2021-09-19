@@ -8,7 +8,6 @@ import lombok.Data;
 public class AgentVerificationDto {
 
     private Long id;
-    private String bvn;
     private String address;
     private String idCard;
 
