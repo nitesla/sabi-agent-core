@@ -17,7 +17,7 @@ import java.math.BigDecimal;
 public class CreditLevel extends CoreEntity {
 
 
-    private long agentCategoryId;
+    private Long agentCategoryId;
 
     private BigDecimal limits;
 
