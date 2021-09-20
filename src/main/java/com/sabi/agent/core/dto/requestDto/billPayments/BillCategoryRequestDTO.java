@@ -12,7 +12,7 @@ import lombok.Data;
 
 @Builder
 @Data
-public class BillCategoryDTO {
+public class BillCategoryRequestDTO {
 
     private String direction;
     private String fingerprint;

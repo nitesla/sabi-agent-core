@@ -12,7 +12,7 @@ import lombok.Data;
 
 @Builder
 @Data
-public class BillerDTO {
+public class BillerRequestDTO {
 
     private Integer billCategoryId;
     private Long commissionRate;

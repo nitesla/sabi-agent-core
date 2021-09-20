@@ -15,4 +15,5 @@ public class SmsRequestDto {
 
     private String  message;
     private String phoneNumber;
+    private String fingerprint;
 }
