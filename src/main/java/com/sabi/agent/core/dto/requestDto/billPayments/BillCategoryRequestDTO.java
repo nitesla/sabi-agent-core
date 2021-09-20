@@ -1,8 +1,10 @@
 package com.sabi.agent.core.dto.requestDto.billPayments;
 
 
+import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 
 /**
@@ -10,6 +12,8 @@ import lombok.Data;
  * This class collects the request and map it to the entity class
  */
 
+@NoArgsConstructor
+@AllArgsConstructor
 @Builder
 @Data
 public class BillCategoryRequestDTO {
@@ -19,11 +23,4 @@ public class BillCategoryRequestDTO {
     private Integer page;
     private Integer size;
     private String sortBy;
-    private Integer billCategoryId;
-    private String billsWallet;
-    private String description;
-    private Boolean isAvailable;
-    private Long maximumPurchaseAmount;
-    private Long minimumPurchaseAmount;
-    private String name;
 }

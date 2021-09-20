@@ -21,5 +21,10 @@ public class Airtime {
     private Long billerId;
     private String denomination;
     private String msisdn;
+    private String code;
+    private String data;
+    private String message;
+    private String status;
+    private String timestamp;
 
 }
