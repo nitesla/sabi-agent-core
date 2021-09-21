@@ -11,4 +11,5 @@ public class CreateAgentRequestDto {
     private String email;
     private String phone;
     private String referralCode;
+    private String fingerPrint;
 }
