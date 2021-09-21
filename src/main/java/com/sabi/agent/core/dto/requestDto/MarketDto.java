@@ -16,5 +16,5 @@ public class MarketDto {
 
     private String name;
 
-    private long wardId;
+    private Long wardId;
 }
