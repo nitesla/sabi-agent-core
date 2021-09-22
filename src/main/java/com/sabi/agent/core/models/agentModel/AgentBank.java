@@ -14,5 +14,5 @@ public class AgentBank extends CoreEntity {
 
     private Long agentId;
     private Long bankId;
-    private Integer accountNumber;
+    private String accountNumber;
 }

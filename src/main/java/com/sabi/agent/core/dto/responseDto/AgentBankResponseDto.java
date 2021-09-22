@@ -17,7 +17,7 @@ public class AgentBankResponseDto {
     private Long id;
     private Long agentId;
     private Long bankId;
-    private Integer accountNumber;
+    private String accountNumber;
 
     private LocalDateTime createdDate;
 
