@@ -10,6 +10,6 @@ public class CreateAgentRequestDto {
     private String lastName;
     private String email;
     private String phone;
-    private String referralCode;
+    private String referrer;
     private String fingerPrint;
 }
