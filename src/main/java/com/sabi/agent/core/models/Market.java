@@ -2,6 +2,7 @@ package com.sabi.agent.core.models;
 
 
 import com.sabi.framework.models.CoreEntity;
+import lombok.Builder;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -15,6 +16,7 @@ import javax.persistence.Entity;
 
 @EqualsAndHashCode(callSuper=false)
 @Data
+@Builder
 @Entity
 public class Market extends CoreEntity {
 
