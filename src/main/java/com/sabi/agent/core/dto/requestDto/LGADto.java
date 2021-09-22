@@ -9,8 +9,6 @@ import lombok.Data;
 
 @Data
 public class LGADto {
-
-
     private Long id;
 
     private String name;
