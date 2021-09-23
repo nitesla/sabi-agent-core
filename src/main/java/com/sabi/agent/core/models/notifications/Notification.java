@@ -20,7 +20,7 @@ public class Notification {
     private Boolean inApp;
     private String message;
     @OneToOne
-    private Recipient recipients;
+    private RecipientRequest recipients;
     private Boolean sms;
     private String title;
     private String code;

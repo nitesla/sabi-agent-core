@@ -14,5 +14,7 @@ public class AgentBank extends CoreEntity {
 
     private Long agentId;
     private Long bankId;
+    private String bankName;
+    private boolean isDefault;
     private String accountNumber;
 }

@@ -12,7 +12,7 @@ import lombok.Data;
 public class AirtimeResponseDto {
 
     private String code;
-    private String data;
+    private Object data;
     private String message;
     private String status;
     private String timestamp;

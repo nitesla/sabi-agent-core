@@ -14,6 +14,6 @@ import lombok.Data;
 public class NotificationResponseDto {
 
      private String code;
-     private String data;
+     private Object data;
      private String message;
 }
