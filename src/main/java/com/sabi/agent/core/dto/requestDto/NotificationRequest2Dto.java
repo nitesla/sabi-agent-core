@@ -23,7 +23,7 @@ public class NotificationRequest2Dto {
     private String title;
     private Boolean email;
     private Boolean inApp;
-    private RecipientRequest recipients;
+    private RecipientRequest recipient;
     private Boolean sms;
 
 }
