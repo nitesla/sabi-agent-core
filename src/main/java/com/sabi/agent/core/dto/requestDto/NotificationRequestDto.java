@@ -17,14 +17,12 @@ import lombok.NoArgsConstructor;
 @Builder
 @Data
 public class NotificationRequestDto {
-
     private String email;
     private String message;
     private String title;
     private String fingerprint;
     private Boolean email1;
     private Boolean inApp;
-    private RecipientRequest recipients;
+    private RecipientRequest recipient;
     private Boolean sms;
-
 }
