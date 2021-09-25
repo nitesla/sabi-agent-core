@@ -8,5 +8,6 @@ public class AgentBankDto {
     private Long id;
     private Long agentId;
     private Long bankId;
+    private String bankName;
     private String accountNumber;
 }

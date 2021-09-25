@@ -17,6 +17,7 @@ public class AgentBankResponseDto {
     private Long id;
     private Long agentId;
     private Long bankId;
+    private String bankName;
     private String accountNumber;
 
     private LocalDateTime createdDate;
@@ -28,6 +29,6 @@ public class AgentBankResponseDto {
     private Long updatedBy;
 
     private Boolean isActive;
-
+    private boolean isDefault;
 
     }
