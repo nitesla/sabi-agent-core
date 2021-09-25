@@ -1,4 +1,4 @@
-package com.sabi.agent.core.integrations.response;
+package com.sabi.agent.core.integrations.order.orderResponse;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -6,9 +6,9 @@ import lombok.Data;
 
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class SingleOrderResponse {
+public class CreateOrderResponse {
 
     private boolean status;
     private String message;
-    private OrderData data;
+    private ResponseData data;
 }

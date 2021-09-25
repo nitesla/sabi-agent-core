@@ -1,14 +1,14 @@
-package com.sabi.agent.core.integrations.response;
+package com.sabi.agent.core.integrations.order;
+
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class CustomerDetails {
-
+public class PlacedBy {
     private String name;
-    private String email;
     private String phoneNumber;
-    private boolean isNewCustomer;
+    private String spacesAccountId;
+    private boolean flag;
 }

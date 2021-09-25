@@ -1,4 +1,4 @@
-package com.sabi.agent.core.integrations.response;
+package com.sabi.agent.core.integrations.order;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -9,7 +9,6 @@ import java.util.List;
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class OrderItem {
-
     private String productName;
     private String productId;
     private int unitPrice;
