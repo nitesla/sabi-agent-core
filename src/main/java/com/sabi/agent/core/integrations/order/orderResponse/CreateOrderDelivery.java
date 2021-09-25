@@ -1,11 +1,12 @@
-package com.sabi.agent.core.integrations.response;
+package com.sabi.agent.core.integrations.order.orderResponse;
+
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
-public class OrderDelivery {
+public class CreateOrderDelivery {
     private int orderId;
     private String firstName;
     private String lastName;
@@ -13,8 +14,8 @@ public class OrderDelivery {
     private String address;
     private String state;
     private String lga;
-    private String email;
-    private String city;
+    private Object email;
+    private Object city;
     private int deliveryOption;
     private String deliveryCompany;
     private int deliveryCharge;

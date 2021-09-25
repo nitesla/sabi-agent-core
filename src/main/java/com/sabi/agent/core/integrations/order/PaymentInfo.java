@@ -1,4 +1,4 @@
-package com.sabi.agent.core.integrations.response;
+package com.sabi.agent.core.integrations.order;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;
@@ -9,6 +9,6 @@ import lombok.Data;
 public class PaymentInfo {
 
     private int paymentMethod;
-    private String transactionReference;
+    private Object transactionReference;
     private String paymentMethodDesc;
 }
