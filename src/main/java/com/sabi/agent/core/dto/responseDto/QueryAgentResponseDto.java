@@ -52,4 +52,5 @@ public class QueryAgentResponseDto {
     private Long createdBy;
     private Long updatedBy;
     private Boolean isActive;
+    private Long supervisorId;
 }

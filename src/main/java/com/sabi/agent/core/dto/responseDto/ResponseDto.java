@@ -12,5 +12,7 @@ public class ResponseDto {
     private String code;
     private String message;
     private Object data;
+    private String status;
+    private String timestamp;
 
 }
