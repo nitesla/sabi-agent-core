@@ -1,6 +1,6 @@
 package com.sabi.agent.core.merchant_integration.response;
 
-import com.sabi.agent.core.merchant_integration.ActivityData;
+import com.sabi.agent.core.merchant_integration.merchant_with_activity.ActivityData;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
