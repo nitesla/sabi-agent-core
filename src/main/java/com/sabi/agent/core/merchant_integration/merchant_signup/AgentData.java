@@ -11,7 +11,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class MerchantData {
+public class AgentData {
     private String activationDate;
     private boolean active;
     private String agentCodeToShare;
