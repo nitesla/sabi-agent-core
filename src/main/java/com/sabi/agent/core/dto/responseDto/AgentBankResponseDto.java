@@ -17,6 +17,8 @@ public class AgentBankResponseDto {
     private Long id;
     private Long agentId;
     private Long bankId;
+    private String agentFirstName;
+    private String agentLastName;
     private String bankName;
     private String accountNumber;
 

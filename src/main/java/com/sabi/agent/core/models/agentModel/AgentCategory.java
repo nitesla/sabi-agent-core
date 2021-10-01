@@ -12,7 +12,8 @@ import javax.persistence.Entity;
 @Data
 public class AgentCategory extends CoreEntity {
 
-
+    private String description;
+    private String image;
     private String name;
 
 }
