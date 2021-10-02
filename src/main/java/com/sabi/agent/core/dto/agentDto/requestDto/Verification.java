@@ -6,6 +6,7 @@ import lombok.Data;
 public class Verification {
 
     private Long id;
+    private int status;
 
 
 }

@@ -17,6 +17,6 @@ public class AgentActivationResponse {
 
     private Long userId;
     private Long agentId;
-    private String phoneNumber;
+    private String phone;
 
 }

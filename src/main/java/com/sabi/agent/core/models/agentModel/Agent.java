@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 import java.util.Date;
 
 
@@ -51,4 +52,15 @@ public class Agent extends CoreEntity {
     private String registrationTokenExpiration;
 
     private Boolean isEmailVerified ;
+
+    @Transient
+    private String firstName;
+    @Transient
+    private String lastName;
+    @Transient
+    private String phone;
+    @Transient
+    private String email;
+
+
 }

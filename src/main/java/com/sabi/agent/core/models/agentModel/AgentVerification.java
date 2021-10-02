@@ -22,6 +22,7 @@ public class AgentVerification {
 
     private Long agentId;
     private String component;
+    private String name;
     private Date dateVerified;
     private int status;
     private LocalDateTime dateSubmitted;
