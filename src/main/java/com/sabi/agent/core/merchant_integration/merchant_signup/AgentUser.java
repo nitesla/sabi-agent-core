@@ -23,7 +23,7 @@ public class AgentUser {
     private Boolean bvnVerified;
     private String createdAt;
     private List<Customer> customers;
-    private MerchantData data;
+    private AgentData data;
     private String dateBarred;
     private DefaultBankAccountData defaultBankAccountData;
     private DeviceData deviceData;

@@ -7,7 +7,8 @@ import lombok.Data;
 public class AgentCategoryDto {
 
     private Long id;
-
     private String name;
+    private String description;
+    private String image;
 
 }
