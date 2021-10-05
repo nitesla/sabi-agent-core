@@ -2,6 +2,7 @@ package com.sabi.agent.core.models.agentModel;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.sabi.framework.models.CoreEntity;
+import com.sabi.framework.models.User;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
@@ -61,6 +62,8 @@ public class Agent extends CoreEntity {
     private String phone;
     @Transient
     private String email;
+
+    public User user;
 
 
 }
