@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.UUID;
 
 @Data
 @AllArgsConstructor
@@ -17,7 +18,7 @@ public class WalletSpaces {
     private List<BankAccount> bankAccounts;
     private List<Card> cards;
     private String createdAt;
-    private String id;
+    private UUID id;
     private String status;
     private List<Transaction> transactions ;
     private String updatedAt;

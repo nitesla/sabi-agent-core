@@ -7,6 +7,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
+import java.util.UUID;
 
 @Data
 @AllArgsConstructor
@@ -26,7 +27,7 @@ public class WalletData {
     @JsonProperty("date_created")
     private String dateCreated;
     @JsonProperty("id")
-    private String id;
+    private UUID id;
     @JsonProperty("ledger_balance")
     private int ledgerBalance;
     @JsonProperty("status")

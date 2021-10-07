@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
+import java.util.UUID;
 
 @Data
 @Builder
@@ -16,7 +17,7 @@ public class Transaction {
     private CommissionDetails commissionDetails;
     private String createdAt;
     private String details;
-    private String id;
+    private UUID id;
     private OrderDetails orderDetails;
     private RaveData raveData;
     private String status;

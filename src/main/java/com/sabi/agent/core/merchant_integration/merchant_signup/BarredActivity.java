@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.UUID;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -12,7 +14,7 @@ import lombok.NoArgsConstructor;
 public class BarredActivity {
     private boolean barred;
     private String createdAt;
-    private String id;
+    private UUID id;
     private String reason;
     private String unbarredBy;
     private String unbarredReason;

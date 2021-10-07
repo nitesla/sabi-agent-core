@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.UUID;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -13,7 +15,7 @@ public class UserActivityEntity {
     private String body;
     private String createdAt;
     private String fingerprint;
-    private String id;
+    private UUID id;
     private String ipAddress;
     private String method;
     private String updatedAt;

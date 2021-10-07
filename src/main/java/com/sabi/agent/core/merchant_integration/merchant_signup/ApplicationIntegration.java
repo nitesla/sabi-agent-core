@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.UUID;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -12,7 +14,7 @@ import lombok.NoArgsConstructor;
 public class ApplicationIntegration {
     private String createdAt;
     private Credentials credentials;
-    private String id;
+    private UUID id;
     private String integratedApplicationName;
     private String updatedAt;
 }

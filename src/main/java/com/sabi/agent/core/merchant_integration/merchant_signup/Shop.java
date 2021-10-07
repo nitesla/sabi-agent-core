@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
+import java.util.UUID;
 
 @Data
 @AllArgsConstructor
@@ -13,7 +14,7 @@ import java.util.List;
 @Builder
 public class Shop {
     private Details details;
-    private String id;
+    private UUID id;
     private MerchAppData merchAppData;
     private List<Product> products;
     private String state;

@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
+import java.util.UUID;
 
 @Data
 @NoArgsConstructor
@@ -20,7 +21,7 @@ public class Customer {
     private String deliveryNote;
     private String email;
     private HomeAddress homeAddress;
-    private String id;
+    private UUID id;
     private String name;
     private List<String> notes;
     private OfficeAddress officeAddress;

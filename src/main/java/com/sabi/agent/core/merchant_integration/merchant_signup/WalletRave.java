@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
+import java.util.UUID;
 
 @Data
 @AllArgsConstructor
@@ -16,7 +17,7 @@ public class WalletRave {
     private List<Card> cards;
     private String createdAt;
     private CustomerData customerData;
-    private String id;
+    private UUID id;
     private String status;
     private List<Transaction> transactions;
     private String updatedAt;

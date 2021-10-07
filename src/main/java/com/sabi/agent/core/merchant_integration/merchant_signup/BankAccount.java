@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.UUID;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -12,6 +14,6 @@ import lombok.NoArgsConstructor;
 public class BankAccount {
     private BankAccountData bankAccountData;
     private String createdAt;
-    private String id;
+    private UUID id;
     private String updatedAt;
 }

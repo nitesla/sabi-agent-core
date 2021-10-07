@@ -6,6 +6,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.UUID;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -22,7 +24,7 @@ public class CustomerData {
     @JsonProperty("first_name")
     private String firstName;
     @JsonProperty("id")
-    private String id;
+    private UUID id;
     @JsonProperty("last_name")
     private String lastName;
     @JsonProperty("middle_name")

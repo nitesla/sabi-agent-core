@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
+import java.util.UUID;
 
 @Data
 @AllArgsConstructor
@@ -20,7 +21,7 @@ public class MerchAppData {
     private String businessId;
     private String businessSlug;
     private Details__1 details;
-    private String id;
+    private UUID id;
     private String imageUrl;
     private ListingOptions listingOptions;
     private MerchantLocation location;

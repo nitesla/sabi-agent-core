@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import java.util.List;
+import java.util.UUID;
 
 @Data
 @Builder
@@ -30,7 +31,7 @@ public class AgentUser {
     private int failedDeviceVerificationAttempt;
     private String fullName;
     private String gamesUsername;
-    private String id;
+    private UUID id;
     private String initialLoginDeviceVerificationTime;
     private String lastGamesAttempt;
     private List<Lecture> lectures;

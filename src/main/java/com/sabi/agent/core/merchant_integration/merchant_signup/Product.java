@@ -7,6 +7,7 @@ import lombok.NoArgsConstructor;
 
 import java.math.BigDecimal;
 import java.util.List;
+import java.util.UUID;
 
 @Data
 @NoArgsConstructor
@@ -22,7 +23,7 @@ public class Product {
     private String createdAt;
     private String createdBy;
     private String description;
-    private String id;
+    private UUID id;
     private Images images;
     private String inventoryProductId;
     private ListingOptions listingOptions;

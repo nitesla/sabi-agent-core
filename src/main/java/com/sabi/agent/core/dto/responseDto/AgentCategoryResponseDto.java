@@ -12,7 +12,7 @@ public class AgentCategoryResponseDto {
     private Long id;
 
     private String name;
-
+    private boolean isDefault;
     private String description;
     private String image;
 

@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.UUID;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -13,7 +15,7 @@ public class AssignedRejectedReason {
     private boolean accepted;
     private String agentEmail;
     private String createdAt;
-    private String id;
+    private UUID id;
     private String name;
     private String ownerId;
     private ReasonDetails reasonDetails;

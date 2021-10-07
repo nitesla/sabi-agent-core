@@ -5,6 +5,8 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.util.UUID;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -17,7 +19,7 @@ public class Lecture {
     private String courseStatus;
     private String courseTitle;
     private String createdAt;
-    private String id;
+    private UUID id;
     private String lectureTitle;
     private String ownerId;
     private String pdfLink;
