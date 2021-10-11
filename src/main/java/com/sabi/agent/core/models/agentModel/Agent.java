@@ -5,6 +5,7 @@ import com.sabi.framework.models.CoreEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Transient;
 import java.util.Date;
@@ -19,6 +20,7 @@ import java.util.Date;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Agent extends CoreEntity {
 
+    @Column(updatable= false)
     private long userId;
     private Long agentCategoryId;
     private String scope;
