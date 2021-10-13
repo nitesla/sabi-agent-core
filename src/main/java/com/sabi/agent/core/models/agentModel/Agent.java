@@ -60,6 +60,8 @@ public class Agent extends CoreEntity {
     private String phone;
     @Transient
     private String email;
+    @Transient
+    private String agentCategoryName;
 
 //    public User user;
 
