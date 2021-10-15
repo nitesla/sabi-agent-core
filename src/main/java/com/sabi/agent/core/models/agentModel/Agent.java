@@ -63,7 +63,7 @@ public class Agent extends CoreEntity {
     @Transient
     private String agentCategoryName;
 
-//    public User user;
+
 
 
 }
