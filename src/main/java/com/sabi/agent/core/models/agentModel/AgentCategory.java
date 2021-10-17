@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 
 @EqualsAndHashCode(callSuper=false)
 @Entity
@@ -16,5 +17,4 @@ public class AgentCategory extends CoreEntity {
     private boolean isDefault;
     private String image;
     private String name;
-
 }

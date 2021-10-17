@@ -51,6 +51,8 @@ public class Agent extends CoreEntity {
     private String registrationToken;
     private String registrationTokenExpiration;
     private Boolean isEmailVerified ;
+    private String countryCode;
+    private double commission;
 
     @Transient
     private String firstName;
