@@ -4,7 +4,6 @@ package com.sabi.agent.core.models;
 import com.sabi.framework.models.CoreEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
-
 import javax.persistence.Column;
 import javax.persistence.Entity;
 

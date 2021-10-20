@@ -37,8 +37,4 @@ public class AgentUpdateDto {
     private Long countryId;
     private boolean accountNonLocked;
     private double commission;
-    private String countryCode;
-
-
-
 }

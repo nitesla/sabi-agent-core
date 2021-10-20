@@ -17,4 +17,5 @@ public class AgentCategory extends CoreEntity {
     private boolean isDefault;
     private String image;
     private String name;
+    private Long nextAgentCategory;
 }

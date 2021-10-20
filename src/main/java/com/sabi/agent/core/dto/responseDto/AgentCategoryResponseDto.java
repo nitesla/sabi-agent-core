@@ -16,6 +16,7 @@ public class AgentCategoryResponseDto {
     private boolean isDefault;
     private String description;
     private String image;
+    private Long nextAgentCategory;
 
     private LocalDateTime createdDate;
 

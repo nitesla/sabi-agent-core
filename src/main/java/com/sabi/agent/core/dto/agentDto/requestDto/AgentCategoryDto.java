@@ -12,4 +12,5 @@ public class AgentCategoryDto {
     private String description;
     private String image;
     private boolean isDefault;
+    private Long nextAgentCategory;
 }
