@@ -13,11 +13,9 @@ import java.math.BigDecimal;
 @Builder
 public class WalletStatusResponse implements IWalletResponse{
     private BigDecimal balance;
-    private String firstName;
     private String fundingLink;
-    private String lastName;
-    private String phoneNumber;
     private BigDecimal seerBitBalance;
     private String status;
     private String userId;
+    private String totalCommissionEarned;
 }

@@ -2,9 +2,7 @@ package com.sabi.agent.core.models;
 
 
 import com.sabi.framework.models.CoreEntity;
-import lombok.Builder;
-import lombok.Data;
-import lombok.EqualsAndHashCode;
+import lombok.*;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -18,6 +16,8 @@ import javax.persistence.Entity;
 @Data
 @Builder
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
 public class Market extends CoreEntity {
 
 
