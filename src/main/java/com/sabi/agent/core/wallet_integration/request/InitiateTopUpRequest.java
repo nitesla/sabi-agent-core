@@ -14,8 +14,15 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @Builder
 public class InitiateTopUpRequest {
+    //{
+    //  "amount": 0,
+    //  "callBackUrl": "string",
+    //  "receiverPhoneNumber": "string"
+    //}
     @DecimalMin(value = "0.0", message = "Amount can not be a negative value")
     private BigDecimal amount;
     @NotBlank(message = "Receiver phone number can not be empty")
     private String receiverPhoneNumber;
+    @NotBlank(message = "Call back url can not be empty")
+    private String callBackUrl;
 }

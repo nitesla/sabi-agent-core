@@ -12,6 +12,7 @@ import java.math.BigDecimal;
 @AllArgsConstructor
 @Builder
 public class InitiateTopUpResponse implements IWalletResponse{
+
     private BigDecimal amount;
     private String email;
     private String pocketReferenceId;

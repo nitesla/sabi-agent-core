@@ -2,10 +2,13 @@ package com.sabi.agent.core.integrations.order;
 
 import lombok.Data;
 
+import java.math.BigDecimal;
+
 @Data
 public class Product {
 
-    private int groupBuyBulkPrice;
+    private BigDecimal agentSellingPrice;
+    private BigDecimal groupBuyBulkPrice;
     private String groupBuyId;
     private int groupBuySplitId;
     private String itemId;
