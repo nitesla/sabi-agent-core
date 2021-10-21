@@ -2,8 +2,11 @@ package com.sabi.agent.core.models.agentModel;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.sabi.framework.models.CoreEntity;
+import com.sabi.framework.models.User;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
@@ -17,6 +20,8 @@ import java.util.Date;
 @EqualsAndHashCode(callSuper=false)
 @Entity
 @Data
+@AllArgsConstructor
+@NoArgsConstructor
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Agent extends CoreEntity {
 

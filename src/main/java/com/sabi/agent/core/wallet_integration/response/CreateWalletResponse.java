@@ -4,6 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.codehaus.jackson.annotate.JsonProperty;
 
 import java.math.BigDecimal;
 
@@ -12,12 +13,26 @@ import java.math.BigDecimal;
 @Builder
 @AllArgsConstructor
 public class CreateWalletResponse implements IWalletResponse{
+    //{
+    //  "applicationName": "string",
+    //  "balance": 0,
+    //  "fundingLink": "string",
+    //  "id": "string",
+    //  "status": "ACTIVE",
+    //  "thirdPartyUserId": "string",
+    //  "totalCommissionEarned": 0,
+    //  "walletType": "USER",
+    //  "walletUserId": "string"
+    //}
+
     private BigDecimal balance;
-    private String firstName;
+    @JsonProperty("id")
+    private String wId;
+    private String thirdPartyUserId;
     private String fundingLink;
-    private String lastName;
     private String phoneNumber;
-    private BigDecimal seerBitBalance;
+    private BigDecimal totalCommissionEarned;
     private String status;
-    private String userId;
+    private String walletType;
+    private String walletUserId;
 }

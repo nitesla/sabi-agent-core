@@ -11,18 +11,39 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class MerchantSignUpRequest {
-    private AgentCustomer agentCustomer;
+    //    private AgentCustomer agentCustomer;
+    //{
+//   "firstName":"Joy",
+//   "lastName":"Jane",
+//   "email":"ue1u@gmaiul.com",
+//   "country":"NG",
+//   "phoneNumber":"08097891894",
+//   "businessName":"Teslim124",
+//   "streetAddress":"Close 55, house 17, Sattelite town, Lagos",
+//   "businessPhoneNumber":"+2348097897894",
+//   "state":"Bayelsa",
+//   "lga":"Sagbama",
+//   "msisdn":"+2348097897894",
+//   "password":"123456",
+//   "businessCategories":[
+//
+//   ],
+//   "referralCode":null
+//}
     private List<String> businessCategories;
-    private String country;
-    private String deliveryInstruction;
     private String firstName;
     private String lastName;
-    private String lga;
-    private String msisdn;
-    private String phoneNumber;
-    private String referralCode;
-    private String shopAddress;
-    private String shopNumber;
-    private String state;
     private String username;
+    private String email;
+    private String country;
+    private String phoneNumber;
+    private String businessName;
+    private String streetAddress;
+    private String businessPhoneNumber;
+    private String state;
+    private String lga;
+    //id of agent creating the merchant
+    private String agentId;
+    private String msisdn;
+    private String password;
 }
