@@ -2,9 +2,6 @@ package com.sabi.agent.core.wallet_integration;
 
 import lombok.*;
 
-import javax.validation.constraints.Email;
-import javax.validation.constraints.NotBlank;
-
 @Data
 @AllArgsConstructor
 @NoArgsConstructor

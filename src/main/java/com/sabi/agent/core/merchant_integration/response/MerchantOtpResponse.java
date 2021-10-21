@@ -3,7 +3,6 @@ package com.sabi.agent.core.merchant_integration.response;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.springframework.stereotype.Service;
 
 @Data
 @AllArgsConstructor

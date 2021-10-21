@@ -2,7 +2,6 @@ package com.sabi.agent.core.models.agentModel;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.sabi.framework.models.CoreEntity;
-import com.sabi.framework.models.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -56,6 +55,7 @@ public class Agent extends CoreEntity {
     private String registrationToken;
     private String registrationTokenExpiration;
     private Boolean isEmailVerified ;
+    private double commission ;
 
     @Transient
     private String firstName;
@@ -67,6 +67,8 @@ public class Agent extends CoreEntity {
     private String email;
     @Transient
     private String agentCategoryName;
+    @Transient
+    private String countryCode;
 
 
 
