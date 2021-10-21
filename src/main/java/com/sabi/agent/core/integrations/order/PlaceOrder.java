@@ -19,4 +19,5 @@ public class PlaceOrder {
     private String location;
     private OrderDelivery orderDelivery;
     private List<Product> products;
+    private Long agentId;
 }
