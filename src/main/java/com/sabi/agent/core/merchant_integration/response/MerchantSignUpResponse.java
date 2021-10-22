@@ -1,9 +1,6 @@
 package com.sabi.agent.core.merchant_integration.response;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.sabi.agent.core.merchant_integration.merchant_signup.AgentUser;
-import com.sabi.agent.core.merchant_integration.merchant_signup.TokenData;
-import com.sabi.agent.core.merchant_integration.merchant_signup.UserData;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

@@ -8,7 +8,6 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
-import javax.persistence.Transient;
 
 @EqualsAndHashCode(callSuper=false)
 @Entity
@@ -22,4 +21,5 @@ public class AgentCategory extends CoreEntity {
     private String image;
     private String name;
     private Long nextAgentCategory;
+
 }

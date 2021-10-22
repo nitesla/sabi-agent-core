@@ -2,12 +2,12 @@ package com.sabi.agent.core.models.agentModel;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.sabi.framework.models.CoreEntity;
-import com.sabi.framework.models.User;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.Transient;
 import java.util.Date;
@@ -24,6 +24,7 @@ import java.util.Date;
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Agent extends CoreEntity {
 
+    @Column(updatable= false)
     private long userId;
     private Long agentCategoryId;
     private String scope;
@@ -51,12 +52,10 @@ public class Agent extends CoreEntity {
     private Long bankId;
     private Long countryId;
     private boolean accountNonLocked;
-
     private String registrationToken;
-
     private String registrationTokenExpiration;
-
     private Boolean isEmailVerified ;
+    private double commission ;
 
     @Transient
     private String firstName;
@@ -66,8 +65,12 @@ public class Agent extends CoreEntity {
     private String phone;
     @Transient
     private String email;
+    @Transient
+    private String agentCategoryName;
+    @Transient
+    private String countryCode;
 
-    public User user;
+
 
 
 }
