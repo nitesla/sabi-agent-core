@@ -1,6 +1,7 @@
 package com.sabi.agent.core.dto.responseDto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
+import com.sabi.agent.core.models.agentModel.AgentCategory;
 import lombok.Data;
 
 import java.time.LocalDateTime;
@@ -15,6 +16,7 @@ public class AgentCategoryResponseDto {
     private boolean isDefault;
     private String description;
     private String image;
+    private Long nextAgentCategory;
 
     private LocalDateTime createdDate;
 
