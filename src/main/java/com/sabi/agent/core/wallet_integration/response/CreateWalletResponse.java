@@ -1,5 +1,6 @@
 package com.sabi.agent.core.wallet_integration.response;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -12,6 +13,7 @@ import java.math.BigDecimal;
 @NoArgsConstructor
 @Builder
 @AllArgsConstructor
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class CreateWalletResponse implements IWalletResponse{
     //{
     //  "applicationName": "string",
