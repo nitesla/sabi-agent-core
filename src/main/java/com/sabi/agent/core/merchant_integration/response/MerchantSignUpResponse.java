@@ -27,6 +27,7 @@ public class MerchantSignUpResponse {
     private String firstName;
     private String email;
     private String phoneNumber;
+    private String lastName;
     private String address;
     private String status;
     private String error;

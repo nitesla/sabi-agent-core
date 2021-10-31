@@ -1,13 +1,11 @@
 package com.sabi.agent.core.models;
 
 import com.sabi.framework.models.CoreEntity;
-import lombok.AllArgsConstructor;
-import lombok.Builder;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import javax.persistence.Entity;
 
+@EqualsAndHashCode(callSuper = true)
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -17,6 +15,7 @@ public class RegisteredMerchant extends CoreEntity {
     private String merchantId;
     private String firstName;
     private String email;
+    private String lastName;
     private String phoneNumber;
     private String address;
     private String agentId;
