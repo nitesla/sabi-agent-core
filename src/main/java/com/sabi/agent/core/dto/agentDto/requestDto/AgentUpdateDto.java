@@ -36,5 +36,5 @@ public class AgentUpdateDto {
     private Long bankId;
     private Long countryId;
     private boolean accountNonLocked;
-
+    private double commission;
 }

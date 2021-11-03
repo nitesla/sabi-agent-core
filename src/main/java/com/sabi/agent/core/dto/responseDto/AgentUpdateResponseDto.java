@@ -27,5 +27,6 @@ public class AgentUpdateResponseDto {
     private String picture;
     private Boolean hasCustomizedTarget;
     private Long creditLevelId;
-
+    private double commission;
+    private String countryCode;
 }

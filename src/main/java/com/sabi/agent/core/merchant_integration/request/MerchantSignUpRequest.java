@@ -1,6 +1,5 @@
 package com.sabi.agent.core.merchant_integration.request;
 
-import com.sabi.agent.core.merchant_integration.AgentCustomer;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;

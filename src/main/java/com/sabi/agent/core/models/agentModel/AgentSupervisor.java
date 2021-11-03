@@ -1,7 +1,6 @@
 package com.sabi.agent.core.models.agentModel;
 
 
-import com.sabi.agent.core.models.Supervisor;
 import com.sabi.framework.models.CoreEntity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
