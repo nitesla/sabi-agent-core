@@ -16,6 +16,7 @@ public class RegisteredMerchant extends CoreEntity {
     private String firstName;
     private String email;
     private String lastName;
+    private String businessName;
     private String phoneNumber;
     private String address;
     private String agentId;

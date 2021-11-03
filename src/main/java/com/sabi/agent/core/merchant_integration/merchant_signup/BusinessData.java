@@ -12,15 +12,11 @@ import java.util.List;
 @NoArgsConstructor
 @Builder
 public class BusinessData {
-    private List<String> businessCategories;
     private String businessName;
-    private String businessPhoneNumber;
-    private String deliveryInstruction;
-    private String email;
-    private String lga;
-    private String password;
-    private String referralCode;
-    private String shopNumber;
-    private String state;
     private String streetAddress;
+    private String state;
+    private String lga;
+    private String email;
+    private String businessPhoneNumber;
+    private List<Object> businessCategories;
 }
