@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.validation.constraints.NotBlank;
+import javax.validation.constraints.NotNull;
 
 @Data
 @AllArgsConstructor
@@ -31,4 +32,6 @@ public class WalletBvnRequest {
     private String lastName;
     @NotBlank(message = "Phone Number Can not be blank")
     private String phoneNumber;
+    @NotNull(message = "Agent Id can not be null")
+    private Long agentId;
 }
