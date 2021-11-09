@@ -16,12 +16,13 @@ public class WalletBvnRequest {
     //{
     //  "accountNumber": "0035001514",
     //  "bankCode": "string",
-    //  "bvn": "22318961125",
+    //  "bvn": "",
     //  "firstName": "Kelechi",
     //  "lastName": "Atuma",
     //  "phoneNumber": "08139385052"
     //}
 
+    @NotNull(message = "Agent Id can not be null")
     private Long agentId;
     @NotBlank(message = "Account Number Can not be blank")
     private String accountNumber;
@@ -34,6 +35,4 @@ public class WalletBvnRequest {
     private String lastName;
     @NotBlank(message = "Phone Number Can not be blank")
     private String phoneNumber;
-    @NotNull(message = "Agent Id can not be null")
-    private Long agentId;
 }
