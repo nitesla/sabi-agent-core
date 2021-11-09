@@ -12,4 +12,5 @@ public class CreateAgentRequestDto {
     private String phone;
     private String referrer;
     private String fingerPrint;
+    private String countryCode;
 }
