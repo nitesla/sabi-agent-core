@@ -21,6 +21,8 @@ public class WalletBvnRequest {
     //  "lastName": "Atuma",
     //  "phoneNumber": "08139385052"
     //}
+
+    private Long agentId;
     @NotBlank(message = "Account Number Can not be blank")
     private String accountNumber;
     private String bankCode;
