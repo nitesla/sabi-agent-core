@@ -22,4 +22,12 @@ public class AgentCategory extends CoreEntity {
     private String name;
     private Long nextAgentCategory;
 
+
+    public AgentCategory(String name,String description,boolean isDefault) {
+        this.name = name;
+        this.description = description;
+        this.isDefault = isDefault;
+
+    }
+
 }
