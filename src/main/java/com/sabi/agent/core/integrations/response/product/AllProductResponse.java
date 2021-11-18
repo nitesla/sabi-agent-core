@@ -1,18 +1,25 @@
-package com.sabi.agent.core.integrations.response;
+package com.sabi.agent.core.integrations.response.product;
 
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
-
-import java.util.List;
 
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class AllProductResponse {
 
 
+
     private String status;
+    private String code;
     private String message;
-    private int totalRecords;
-    private List<AllProductData> data;
+    private Object description;
+    private String timestamp;
+    private AllProductData data;
+
+
+
+
+
+
 }
