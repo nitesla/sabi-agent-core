@@ -16,8 +16,6 @@ public class AllProductsRequest {
 
 
     private String direction;
-    //---- header------
-//    private String fingerPrint;
     private Integer pageNumber;
     private Integer pageSize;
     private String searchString;
