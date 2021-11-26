@@ -28,8 +28,7 @@ public class CreateWalletResponse implements IWalletResponse{
     //}
 
     private BigDecimal balance;
-    @JsonProperty("id")
-    private String wId;
+    private String id;
     private String thirdPartyUserId;
     private String fundingLink;
     private String phoneNumber;
