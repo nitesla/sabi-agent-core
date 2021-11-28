@@ -19,7 +19,7 @@ public class OrderHistoryData {
     private Object deliveryPackageReference;
     private String placedFor;
     private Object pickupPackageReference;
-    private int totalPrice;
+    private double totalPrice;
     private int subTotal;
     private int serviceFee;
     private int deliveryFee;
