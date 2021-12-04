@@ -1,7 +1,6 @@
 package com.sabi.agent.core.models;
 
 
-import io.swagger.annotations.ApiModelProperty;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -29,6 +28,5 @@ public class AgentOrder {
     private Long agentId;
     private Long totalAmount;
     private String userName;
-    @ApiModelProperty(hidden = true)
     private Date createdDate ;
 }
