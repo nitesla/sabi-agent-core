@@ -3,9 +3,11 @@ package com.sabi.agent.core.models;
 import com.sabi.framework.models.CoreEntity;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
+import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
 
+@NoArgsConstructor
 @EqualsAndHashCode(callSuper=false)
 @Data
 @Entity

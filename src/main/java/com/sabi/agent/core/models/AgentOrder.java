@@ -26,7 +26,7 @@ public class AgentOrder {
     private boolean status;
     private Long orderId;
     private Long agentId;
-    private Long totalAmount;
+    private String totalAmount;
     private String userName;
     private Date createdDate ;
 }
