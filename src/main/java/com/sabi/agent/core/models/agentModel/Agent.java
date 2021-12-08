@@ -57,6 +57,8 @@ public class Agent extends CoreEntity {
     private Boolean isEmailVerified ;
     private double commission ;
     private String countryCode;
+    private String cardBin;
+    private String cardLast4;
 
     @Transient
     private String firstName;

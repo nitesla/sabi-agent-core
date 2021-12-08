@@ -21,5 +21,7 @@ public class AirtimeRequestDto {
     private Long billerId;
     private String denomination;
     private String msisdn;
+    private String requestApp;
     private String fingerprint;
+    private String userId;
 }

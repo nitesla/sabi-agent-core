@@ -25,9 +25,9 @@ public class CreateOrderItem {
     private int orderId;
     private Object itemId;
     private int quantity;
-    private int totalPrice;
-    private int costPrice;
-    private int itemPrice;
+    private String totalPrice;
+    private String costPrice;
+    private String itemPrice;
     private String orderItemNumber;
     private String price;
     private String imageUrl;
