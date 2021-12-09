@@ -12,11 +12,9 @@ import javax.validation.constraints.NotBlank;
 @AllArgsConstructor
 @Builder
 public class CompleteTopUpRequest {
-    @NotBlank(message = "code can not be empty")
     private String code;
     @NotBlank(message = "Linking reference can not be blank")
     private String linkingReference;
-    @NotBlank(message = "message cannot be blank")
     private String message;
     @NotBlank(message = "Reference can not be blank")
     private String reference;
