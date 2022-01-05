@@ -26,5 +26,10 @@ public class Airtime {
     private String message;
     private String status;
     private String timestamp;
-
+    //"debitExternalReference": "string",
+    //    "debitInternalReference": "string",
+    //    "internalReference": "string",
+    private String debitExternalReference;
+    private String debitInternalReference;
+    private String internalReference;
 }
