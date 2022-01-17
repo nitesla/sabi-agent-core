@@ -17,13 +17,13 @@ import javax.persistence.Entity;
 public class AgentCategory extends CoreEntity {
 
     private String description;
-    private boolean isDefault;
+    private Boolean isDefault;
     private String image;
     private String name;
     private Long nextAgentCategory;
 
 
-    public AgentCategory(String name,String description,boolean isDefault) {
+    public AgentCategory(String name,String description,Boolean isDefault) {
         this.name = name;
         this.description = description;
         this.isDefault = isDefault;
