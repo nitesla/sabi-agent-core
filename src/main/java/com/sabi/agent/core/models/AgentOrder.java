@@ -27,6 +27,7 @@ public class AgentOrder {
     private Long orderId;
     private Long agentId;
     private String totalAmount;
+    private Long merchantId;
     private String userName;
     private Date createdDate ;
 }

@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.validation.constraints.NotNull;
 import java.util.List;
 
 @NoArgsConstructor
@@ -19,5 +20,8 @@ public class PlaceOrder {
     private String location;
     private OrderDelivery orderDelivery;
     private List<Product> products;
+    @NotNull(message = "Merchant Id is required")
+    private Long merchantId;
+    @NotNull(message = "Agent Id is required")
     private Long agentId;
 }
