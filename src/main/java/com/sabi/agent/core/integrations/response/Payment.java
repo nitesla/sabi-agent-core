@@ -3,6 +3,8 @@ package com.sabi.agent.core.integrations.response;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
+import java.math.BigDecimal;
+
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Payment {
@@ -16,10 +18,10 @@ public class Payment {
     private String response;
     private int paymentMethod;
     private String responseString;
-    private int deliveryCharge;
-    private int subTotal;
-    private int serviceCharge;
-    private int total;
+    private BigDecimal deliveryCharge;
+    private BigDecimal subTotal;
+    private BigDecimal serviceCharge;
+    private BigDecimal total;
     private String email;
     private String paymentMethodDescription;
 }
