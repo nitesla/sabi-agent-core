@@ -21,6 +21,7 @@ public class MerchantSignUpResponse {
     // "phoneNumber":"+2349099118314",
     // "address":"Close 55, house 17, Sattelite , Lagos"}
     private String id;
+    private long localId;
     private String firstName;
     private String email;
     private String phoneNumber;
