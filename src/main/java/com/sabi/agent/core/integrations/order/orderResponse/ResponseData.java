@@ -7,6 +7,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @NoArgsConstructor
@@ -20,7 +21,7 @@ public class ResponseData {
     private Object payment;
     private Object branch;
     private List<OrderInvoice> orderInvoices;
-    private int id;
+    private Long id;
     private Object userId;
     private String userName;
     private String email;
@@ -31,11 +32,11 @@ public class ResponseData {
     private Object deliveryPackageReference;
     private Object placedFor;
     private Object pickupPackageReference;
-    private int totalPrice;
-    private int subTotal;
-    private int serviceFee;
-    private int deliveryFee;
-    private int noOfItems;
+    private BigDecimal totalPrice;
+    private BigDecimal subTotal;
+    private BigDecimal serviceFee;
+    private BigDecimal deliveryFee;
+    private Long noOfItems;
     private String createdDate;
     private int orderStatus;
     private int fulfilmentStatus;
@@ -46,9 +47,9 @@ public class ResponseData {
     private Object orderInvoice;
     private int orderCancelledReason;
     private Object orderReferalCode;
-    private int packedCount;
-    private int deliveredCount;
-    private int cancelledCount;
+    private Long packedCount;
+    private Long deliveredCount;
+    private Long cancelledCount;
     private int orderChannel;
     private boolean hasGroupBuyOrderItem;
     private int agentComissionType;
