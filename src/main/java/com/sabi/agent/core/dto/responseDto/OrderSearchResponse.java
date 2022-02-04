@@ -1,25 +1,20 @@
-package com.sabi.agent.core.models;
-
+package com.sabi.agent.core.dto.responseDto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import org.hibernate.annotations.CreationTimestamp;
 
-import javax.persistence.*;
 import java.util.Date;
 
-
+@Data
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-@Data
-@Entity
-public class AgentOrder {
-
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+public class OrderSearchResponse {
+    private String firstName;
+    private String lastName;
+    private String phoneNumber;
     private Long id;
     private boolean status;
     private Long orderId;
