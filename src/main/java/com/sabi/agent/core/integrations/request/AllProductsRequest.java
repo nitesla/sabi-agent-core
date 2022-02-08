@@ -16,7 +16,7 @@ public class AllProductsRequest {
 
 
     private String direction;
-    private Integer pageNumber;
+    private Integer page;
     private Integer pageSize;
     private String searchString;
     private String sortBy;
