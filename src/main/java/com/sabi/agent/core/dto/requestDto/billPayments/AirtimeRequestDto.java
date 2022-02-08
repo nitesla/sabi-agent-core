@@ -22,6 +22,7 @@ public class AirtimeRequestDto {
     private String denomination;
     private String msisdn;
     private String requestApp;
-    private String fingerprint;
     private String userId;
+    private String fingerprint;
+
 }
