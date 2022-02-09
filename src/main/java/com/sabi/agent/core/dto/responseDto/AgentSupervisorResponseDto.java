@@ -1,8 +1,6 @@
 package com.sabi.agent.core.dto.responseDto;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
-import com.sabi.agent.core.models.Supervisor;
-import com.sabi.agent.core.models.agentModel.Agent;
 import lombok.Builder;
 import lombok.Data;
 

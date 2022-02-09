@@ -3,7 +3,6 @@ package com.sabi.agent.core.models.agentModel;
 
 import com.sabi.framework.models.CoreEntity;
 import lombok.*;
-import org.springframework.transaction.annotation.Transactional;
 
 import javax.persistence.Entity;
 
