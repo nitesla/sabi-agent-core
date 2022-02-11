@@ -3,7 +3,6 @@ package com.sabi.agent.core.models.agentModel;
 import com.sabi.framework.models.CoreEntity;
 import lombok.*;
 
-import javax.annotation.security.DenyAll;
 import javax.persistence.Entity;
 
 @EqualsAndHashCode(callSuper = true)

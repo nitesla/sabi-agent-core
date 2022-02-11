@@ -14,8 +14,8 @@ public class CreateOrderDelivery {
     private String address;
     private String state;
     private String lga;
-    private Object email;
-    private Object city;
+    private String email;
+    private String city;
     private int deliveryOption;
     private String deliveryCompany;
     private int deliveryCharge;

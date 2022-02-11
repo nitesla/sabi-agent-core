@@ -12,9 +12,7 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-/**
- * used for debit
- * */
+
 public class Transaction {
     private BigDecimal amount;
     private String internalTransactionReference;
