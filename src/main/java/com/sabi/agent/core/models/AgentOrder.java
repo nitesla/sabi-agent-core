@@ -8,6 +8,7 @@ import lombok.NoArgsConstructor;
 import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
 import java.util.Date;
 
 
@@ -34,6 +35,7 @@ public class AgentOrder {
     private String totalAmount;
     private Long merchantId;
     private String userName;
+    private BigDecimal paidAmount;
     private Date createdDate;
     private Long successPaymentId;
 }

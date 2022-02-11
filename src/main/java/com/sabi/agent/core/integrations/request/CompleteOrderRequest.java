@@ -12,7 +12,7 @@ import lombok.NoArgsConstructor;
 @Builder
 public class CompleteOrderRequest {
 
-    private Integer orderId;
+    private long orderId;
     private String partnerCode;
     private Payment payment;
     private String referralCode;
