@@ -22,4 +22,6 @@ public class OrderData {
     private int totalAmountPaid;
     private int totalUnpaidBalance;
     private FinancialDetails financialDetails;
+    private String orderStatus;
+    private Long LocalOrderId;
 }
