@@ -4,7 +4,9 @@ import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.hibernate.validator.constraints.URL;
 
+import javax.validation.constraints.NotBlank;
 import javax.validation.constraints.NotNull;
 
 @Data
@@ -22,6 +24,8 @@ public class LocalCompleteOrderRequest {
     private String message;
     @NotNull(message = "Order id is required")
     private Long orderId;
-    @NotNull(message = "Payment method is required")
-    private Integer paymentMethod;
+    //todo confirm if redirect url is required
+//    @NotBlank(message = "Redirect url is required")
+//    @URL(message = "redirectUrl must be a valid URl")
+//    private String redirectUrl;
 }

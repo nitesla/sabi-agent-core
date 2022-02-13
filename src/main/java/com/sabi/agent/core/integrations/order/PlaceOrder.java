@@ -21,4 +21,5 @@ public class PlaceOrder {
     private List<Product> products;
     private Long merchantId;
     private Long agentId;
+    private int paymentMethod;
 }
