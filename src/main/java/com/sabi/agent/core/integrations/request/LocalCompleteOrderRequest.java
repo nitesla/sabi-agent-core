@@ -22,8 +22,8 @@ public class LocalCompleteOrderRequest {
     private String linkReference;
     @NotNull(message = "Message is required")
     private String message;
-    @NotNull(message = "Order id is required")
-    private Long orderId;
+//    @NotNull(message = "Order id is required")
+//    private Long orderId;
     //todo confirm if redirect url is required
 //    @NotBlank(message = "Redirect url is required")
 //    @URL(message = "redirectUrl must be a valid URl")
