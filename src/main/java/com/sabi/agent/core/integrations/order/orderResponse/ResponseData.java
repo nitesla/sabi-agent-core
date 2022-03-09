@@ -17,7 +17,7 @@ import java.util.List;
 public class ResponseData {
 
     private CreateOrderDelivery orderDelivery;
-    private String payment;
+    private Object payment;
     private String branch;
     private List<OrderInvoice> orderInvoices;
     private int id;

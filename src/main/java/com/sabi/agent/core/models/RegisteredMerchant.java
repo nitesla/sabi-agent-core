@@ -20,4 +20,6 @@ public class RegisteredMerchant extends CoreEntity {
     private String phoneNumber;
     private String address;
     private String agentId;
+    private String state;
+    private String lga;
 }
