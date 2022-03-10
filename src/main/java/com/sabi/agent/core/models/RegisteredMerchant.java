@@ -22,4 +22,5 @@ public class RegisteredMerchant extends CoreEntity {
     private String agentId;
     private String state;
     private String lga;
+    private String country;
 }

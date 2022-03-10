@@ -30,4 +30,8 @@ public class MerchantSignUpResponse {
     private String status;
     private String error;
     private String message;
+    private String lga;
+    private String state;
+    private String country;
+    private String businessName;
 }
