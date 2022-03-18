@@ -8,8 +8,9 @@ import java.time.LocalDateTime;
 @Data
 public class AgentTargetResponseDto {
     private String name;
-    private Agent agentId;
+    private Long agentId;
     private Long targetId;
+    private String targetTypeName;
     private Integer min;
     private Integer max;
     private Integer superMax;

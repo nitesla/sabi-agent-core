@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 
 @EqualsAndHashCode(callSuper=false)
 @Data
@@ -25,4 +26,10 @@ public class AgentCategoryTarget extends CoreEntity {
     private Integer min;
     private Integer max;
     private Integer superMax;
+
+    @Transient
+    private String agentCategoryName;
+
+    @Transient
+    private String targetTypeName;
 }

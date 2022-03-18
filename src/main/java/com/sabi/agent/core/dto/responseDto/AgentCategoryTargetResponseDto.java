@@ -8,9 +8,6 @@ import lombok.NoArgsConstructor;
 
 import java.time.LocalDateTime;
 
-@AllArgsConstructor
-@NoArgsConstructor
-@Builder
 @Data
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class AgentCategoryTargetResponseDto {
@@ -22,6 +19,10 @@ public class AgentCategoryTargetResponseDto {
     private Long agentCategoryId;
 
     private Long targetTypeId;
+
+    private String agentCategoryName;
+
+    private String targetTypeName;
 
     private Integer min;
 
