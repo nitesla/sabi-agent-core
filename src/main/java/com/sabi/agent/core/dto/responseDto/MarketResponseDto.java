@@ -20,6 +20,12 @@ public class MarketResponseDto {
 
     private Long wardId;
 
+    private String lga;
+
+    private String state;
+
+    private String country;
+
     private LocalDateTime createdDate;
 
     private LocalDateTime updatedDate;
