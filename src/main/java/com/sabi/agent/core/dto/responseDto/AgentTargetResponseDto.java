@@ -11,6 +11,7 @@ public class AgentTargetResponseDto {
     private Long agentId;
     private Long targetId;
     private String targetTypeName;
+    private String agentName;
     private Integer min;
     private Integer max;
     private Integer superMax;

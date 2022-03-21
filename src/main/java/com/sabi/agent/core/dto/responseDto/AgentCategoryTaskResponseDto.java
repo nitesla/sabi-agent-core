@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Transient;
 import java.time.LocalDateTime;
 
 @AllArgsConstructor
@@ -20,6 +21,10 @@ public class AgentCategoryTaskResponseDto {
     private String name;
 
     private Long agentCategoryId;
+
+    private String agentCategoryName;
+
+    private String taskName;
 
     private Long taskId;
 

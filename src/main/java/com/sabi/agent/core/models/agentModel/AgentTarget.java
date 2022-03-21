@@ -19,6 +19,8 @@ public class AgentTarget extends CoreEntity {
     private Long targetId;
     @Transient
     private String targetTypeName;
+    @Transient
+    private String agentName;
     private Integer min;
     private Integer max;
     private Integer superMax;

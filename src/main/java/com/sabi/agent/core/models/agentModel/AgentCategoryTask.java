@@ -9,6 +9,7 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 
 
 @EqualsAndHashCode(callSuper=false)
@@ -22,4 +23,8 @@ public class AgentCategoryTask extends CoreEntity {
     private String name;
     private Long agentCategoryId;
     private Long taskId;
+    @Transient
+    private String agentCategoryName;
+    @Transient
+    private String taskName;
 }
