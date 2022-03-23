@@ -16,7 +16,7 @@ public class MerchantSignUpRequest {
     private String buildingName;
     private String businessName;
     private String communityName;
-    private String countryCode;
+    private String country;
     private String createdBy;
     private String createdDate;
     private String deliveryInstruction;
