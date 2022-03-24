@@ -44,5 +44,5 @@ public class MerchantSignUpRequest {
 
     private String username;
     private String businessPhoneNumber;
-    private String agentId;
+    private Long agentId;
 }
