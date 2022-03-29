@@ -4,6 +4,7 @@ import com.sabi.framework.models.CoreEntity;
 import lombok.*;
 
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 
 @EqualsAndHashCode(callSuper = true)
 @Data
@@ -19,8 +20,10 @@ public class RegisteredMerchant extends CoreEntity {
     private String businessName;
     private String phoneNumber;
     private String address;
-    private String agentId;
+    private Long agentId;
     private String state;
     private String lga;
     private String country;
+    @Transient
+    private String agentName;
 }

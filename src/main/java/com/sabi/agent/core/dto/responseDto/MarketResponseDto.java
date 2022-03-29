@@ -6,6 +6,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Transient;
 import java.time.LocalDateTime;
 
 @AllArgsConstructor
@@ -19,6 +20,20 @@ public class MarketResponseDto {
     private String name;
 
     private Long wardId;
+
+    private Long lgaId;
+
+    private Long stateId;
+
+    private Long countryId;
+
+    private  String ward;
+
+    private String lga;
+
+    private String state;
+
+    private String country;
 
     private LocalDateTime createdDate;
 

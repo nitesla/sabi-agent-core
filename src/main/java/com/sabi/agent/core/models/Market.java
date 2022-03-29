@@ -6,6 +6,7 @@ import lombok.*;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 
 /**
  *
@@ -25,4 +26,21 @@ public class Market extends CoreEntity {
     private String name;
 
     private Long wardId;
+
+    private Long lgaId;
+
+    private Long stateId;
+
+    private Long countryId;
+    @Transient
+    private  String ward;
+    @Transient
+    private String lga;
+
+    @Transient
+    private String state;
+
+    @Transient
+    private String country;
+
 }
