@@ -12,17 +12,15 @@ import java.util.List;
 @Builder
 @Data
 public class MerchPlaceOrderDto {
+
     private boolean orderPlacedBy;
     private List<Product> products;
-    private MerchCustomerDetails customerDetails;
-    private int channel;
+    private Long agentId;
     private OrderDelivery orderDelivery;
     private String orderReferalCode;
     private int checkoutUserType;
     private String location;
     private String customerComment;
     private String refreshToken;
-    private AgentCommissionInfo agentCommissionInfo;
-    private Long agentId;
-    private int paymentMethod;
+
 }
