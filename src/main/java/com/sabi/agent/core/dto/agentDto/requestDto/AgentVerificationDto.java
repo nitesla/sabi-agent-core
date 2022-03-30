@@ -10,5 +10,6 @@ public class AgentVerificationDto {
     private Long id;
     private String address;
     private String idCard;
+    private String idCardType;
 
 }
