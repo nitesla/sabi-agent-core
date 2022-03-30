@@ -7,6 +7,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.persistence.Transient;
 import java.time.LocalDateTime;
 
 
@@ -22,7 +23,13 @@ public class SupervisorResponseDto {
 
     private long userId;
 
+    private long agentId;
+
     private String user;
+
+    private String supervisorName;
+
+    private String agentName;
 
     private LocalDateTime createdDate;
 
