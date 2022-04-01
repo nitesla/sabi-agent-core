@@ -20,6 +20,7 @@ public class MerchantSignUpRequest {
     private String createdBy;
     private String createdDate;
     private String deliveryInstruction;
+    private String countryCode;
     private String direction;
     private String email;
     private String firstName;
