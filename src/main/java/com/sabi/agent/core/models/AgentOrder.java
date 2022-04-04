@@ -24,6 +24,7 @@ public class AgentOrder {
     private Long id;
     private boolean status;
     private Long orderId;
+    private String orderNumber;
     //processing, paid, delivered, partial delivery
     private String orderStatus;
     private Date orderDate;
@@ -34,6 +35,8 @@ public class AgentOrder {
     private Long agentId;
     private String totalAmount;
     private Long merchantId;
+    @Transient
+    private String merchantName;
     private String userName;
     private BigDecimal paidAmount;
     private Date createdDate;

@@ -6,6 +6,7 @@ import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 
 /**
  *
@@ -18,4 +19,11 @@ import javax.persistence.Entity;
 public class Supervisor extends CoreEntity {
 
     private Long userId;
+    private Long agentId;
+
+    @Transient
+    private String supervisorName;
+
+    @Transient
+    private String agentName;
 }

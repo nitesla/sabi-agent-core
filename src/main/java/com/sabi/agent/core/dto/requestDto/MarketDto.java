@@ -17,4 +17,12 @@ public class MarketDto {
     private String name;
 
     private Long wardId;
+
+    private String ward;
+
+    private String lga;
+
+    private String state;
+
+    private String country;
 }
