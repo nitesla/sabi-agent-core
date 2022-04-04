@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 @NoArgsConstructor
@@ -21,6 +22,7 @@ public class MerchPlaceOrderDto {
     private int checkoutUserType;
     private String location;
     private String customerComment;
+    private BigDecimal profit;
     private String refreshToken;
 
 }
