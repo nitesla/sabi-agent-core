@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import javax.validation.constraints.NotNull;
 import java.util.List;
 
 @NoArgsConstructor
@@ -15,10 +16,13 @@ public class MerchPlaceOrderDto {
 
     private boolean orderPlacedBy;
     private List<Product> products;
+    @NotNull(message = "Agent Id is required")
     private Long agentId;
+    @NotNull(message = "Merchant Id is required")
     private Long merchantId;
     private OrderDelivery orderDelivery;
-    private int paymentMethod;
+    @NotNull(message = "Payment method is required")
+    private Integer paymentMethod;
     private String orderReferalCode;
     private int checkoutUserType;
     private String location;
