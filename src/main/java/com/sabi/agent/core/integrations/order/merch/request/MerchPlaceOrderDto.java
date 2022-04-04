@@ -16,7 +16,9 @@ public class MerchPlaceOrderDto {
     private boolean orderPlacedBy;
     private List<Product> products;
     private Long agentId;
+    private Long merchantId;
     private OrderDelivery orderDelivery;
+    private int paymentMethod;
     private String orderReferalCode;
     private int checkoutUserType;
     private String location;
