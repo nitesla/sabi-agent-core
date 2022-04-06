@@ -28,6 +28,8 @@ public class Market extends CoreEntity {
 
     private Long wardId;
 
+    private  String ward;
+
     @Transient
     private Long lgaId;
 
@@ -36,9 +38,6 @@ public class Market extends CoreEntity {
 
     @Transient
     private Long countryId;
-
-    @Transient
-    private  String ward;
 
     @Transient
     private String lga;
