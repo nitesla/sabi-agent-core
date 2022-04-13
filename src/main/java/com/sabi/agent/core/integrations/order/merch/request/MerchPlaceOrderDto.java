@@ -5,6 +5,7 @@ import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.math.BigDecimal;
 import javax.validation.constraints.NotNull;
 import java.util.List;
 
@@ -27,6 +28,7 @@ public class MerchPlaceOrderDto {
     private int checkoutUserType;
     private String location;
     private String customerComment;
+    private BigDecimal profit;
     private String refreshToken;
 
 }

@@ -35,6 +35,8 @@ public class AgentOrder {
     private Long agentId;
     private String totalAmount;
     private Long merchantId;
+    private BigDecimal profit;
+
     @Transient
     private String merchantName;
     private String userName;
