@@ -16,4 +16,15 @@ public class CompleteOrderRequest {
     private String partnerCode;
     private Payment payment;
     private String referralCode;
+    private BankDetails bankDetails;
+
+    @Data
+    @AllArgsConstructor
+    @NoArgsConstructor
+    @Builder
+    private static class BankDetails {
+        private String accountNumber;
+        private String accountName;
+        private String bankName;
+    }
 }

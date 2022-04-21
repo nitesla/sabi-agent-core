@@ -6,6 +6,7 @@ import lombok.EqualsAndHashCode;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.Transient;
 import java.util.Date;
 
 /**
@@ -18,20 +19,25 @@ import java.util.Date;
 @Entity
 public class UserTask extends CoreEntity {
 
-
-
-
+    private String taskName;
+    private String userType;
+    private String taskType;
+    private String taskDescription;
+    private String taskDuration;
+    private String taskDurationType;
     private Long userId;
-
     private Long taskId;
-
-    @Column(nullable = false)
-    private Date dateAssigned;
 
     private Date endDate;
 
     @Column(nullable = false)
+    private Date dateAssigned;
+
+    @Column(nullable = false)
     private String status;
+
+    @Transient
+    private String User;
 
 
 }

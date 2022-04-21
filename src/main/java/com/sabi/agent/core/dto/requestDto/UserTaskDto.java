@@ -15,18 +15,16 @@ public class UserTaskDto {
 
 
     private Long id;
-
-    private Long userId;
-    private String user;
-
-    private Long taskId;
     private String taskName;
-
-
+    private String userType;
+    private String taskType;
+    private String taskDescription;
+    private String taskDuration;
+    private String taskDurationType;
+    private Long userId;
+    private Long taskId;
     private Date dateAssigned;
-
     private Date endDate;
-
-
     private String status;
+
 }
