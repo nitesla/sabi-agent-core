@@ -12,5 +12,4 @@ public class SupervisorDto {
 
     private Long id;
     private long userId;
-    private long agentId;
 }

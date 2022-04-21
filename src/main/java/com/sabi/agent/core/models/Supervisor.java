@@ -19,11 +19,8 @@ import javax.persistence.Transient;
 public class Supervisor extends CoreEntity {
 
     private Long userId;
-    private Long agentId;
 
     @Transient
-    private String supervisorName;
+    private String user;
 
-    @Transient
-    private String agentName;
 }
