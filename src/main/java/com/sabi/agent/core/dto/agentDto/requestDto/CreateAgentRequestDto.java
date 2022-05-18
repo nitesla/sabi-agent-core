@@ -13,4 +13,5 @@ public class CreateAgentRequestDto {
     private String referrer;
     private String fingerPrint;
     private String countryCode;
+//    private Boolean agentCategory=true;
 }
