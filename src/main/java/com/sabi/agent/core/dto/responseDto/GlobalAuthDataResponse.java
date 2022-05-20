@@ -16,5 +16,6 @@ import lombok.Data;
         private String applicationCode;
         private String actionDate;
         private String token;
+        private String authKeyExpirationDate;
 
 }
