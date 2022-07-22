@@ -3,6 +3,8 @@ package com.sabi.agent.core.dto.responseDto;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.Data;
 
+import java.util.List;
+
 @Data
     @JsonInclude(JsonInclude.Include.NON_NULL)
     public class GlobalAuthDataResponse {
@@ -17,5 +19,6 @@ import lombok.Data;
         private String actionDate;
         private String token;
         private String authKeyExpirationDate;
+        private List<Object> permissions;
 
 }

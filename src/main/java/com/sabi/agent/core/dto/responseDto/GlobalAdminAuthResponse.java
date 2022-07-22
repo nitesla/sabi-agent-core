@@ -38,7 +38,7 @@ public class GlobalAdminAuthResponse {
     private long tokenExpiry;
     @JsonProperty("userId")
     private long userId;
-    private String accessList;
+    private List<Object> permissions;
     private Long globalAdminUserId;
 
     private String globalAdminToken;
